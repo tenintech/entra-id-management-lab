@@ -74,19 +74,22 @@ MFA enabled or authentication methods configured for the user
 
 ---
 
-## Step 4: Configure Access Control
-Go to Conditional Access
-Click New Policy
-Configure:
-Users: Select your test user
-Cloud Apps: Select all apps
-Grant: Require MFA
-Enable the policy
+## Step 4: Manage Access Using Groups
 
-Result: Access is restricted based on security conditions.
+  In Microsoft Entra ID
+ - Select Groups → New Group
+ - Configure:
+ - Group Type: Security
+ - Group Name: IT-Support-Team
+ - Click Create
+ - Open the group and select Members → Add Members
+ - Add the user you previously created
 
-📸 Screenshot 4 (Most Impressive):
-Conditional Access policy showing Require MFA enabled
+Result: User is now part of a group that can be used to manage access and permissions efficiently.
+
+📸 Screenshot 4 (Most Practical):
+Group membership showing the user added to the security group
+
 
 ## Lab Results
 Created and managed a user account
