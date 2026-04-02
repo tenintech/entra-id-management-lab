@@ -31,7 +31,8 @@ Within the Azure Portal..
 
 Result: New user account is successfully provisioned.
 
-📸 Screenshot 1 (Important):
+<img width="581" height="331" alt="newuser" src="https://github.com/user-attachments/assets/f06419ae-9baf-4c7c-8fd3-68944cf1c4d1" />
+
 User successfully created in the Users list
 
 ---
