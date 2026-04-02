@@ -10,7 +10,6 @@ This lab demonstrates basic identity and access management using Microsoft Entra
   - Microsoft Azure
   - Microsoft Entra ID
   - Azure Portal
-  - Remote Desktop (optional)
 
 ## Lab Objectives
 I will add a user, assign a role, engage Multi- Factor Authentication (MFA) and finally, add the user to a group.
