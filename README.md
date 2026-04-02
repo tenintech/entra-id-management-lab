@@ -77,17 +77,19 @@ MFA enabled or authentication methods configured for the user
 ## Step 4: Manage Access Using Groups
 
   In Microsoft Entra ID
- - Select Groups → New Group
+ - Select Manage → Groups → New Group
  - Configure:
- - Group Type: Security
- - Group Name: IT-Support-Team
+   - Group Type: Security
+   - Group Name: IT Support Team
  - Click Create
- - Open the group and select Members → Add Members
- - Add the user you previously created
+ - Open the group and select Manage → Members → Add Members
+ - Add User (Alex)
 
-Result: User is now part of a group that can be used to manage access and permissions efficiently.
+Result: User is now part of IT Support Team Group
 
-📸 Screenshot 4 (Most Practical):
+<img width="319" height="422" alt="createnewgroup" src="https://github.com/user-attachments/assets/6853f5aa-1ecc-42a1-a463-74548f1146c7" />
+<img width="539" height="287" alt="alexmember" src="https://github.com/user-attachments/assets/b464a8f9-6e4d-4770-a634-07bf34a58c30" />
+
 Group membership showing the user added to the security group
 
 
@@ -111,8 +113,8 @@ In this lab, I simulated a common scenario where a new employee requires:
 This reflects real-world IT tasks where proper identity management is critical to maintaining security and controlling access to organizational systems.
 
 ## What I Learned
-How to create and manage users in a cloud identity platform
-How role-based access control (RBAC) is used to assign permissions
-The importance of Multi-Factor Authentication for securing user accounts
-How group-based access simplifies user and permission management
+ - How to create and manage users in a cloud identity platform
+ - How role-based access control (RBAC) is used to assign permissions
+ - The importance of Multi-Factor Authentication for securing user accounts
+ - How group-based access simplifies user and permission management
 
