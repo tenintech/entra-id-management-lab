@@ -13,7 +13,7 @@ This lab demonstrates basic identity and access management using Microsoft Entra
   - Remote Desktop (optional)
 
 ## Lab Objectives
-I will Provision users, assign roles, enagle Multi- Factor Authentication (MFA), and Configure access control
+I will add a user, assign a role, engage Multi- Factor Authentication (MFA) and finally, add the user to a group.
 
 ---
 # Step-by-Step Walkthrough 
@@ -95,7 +95,7 @@ Group membership showing the user added to the security group
 Created and managed a user account
 Assigned role-based permissions
 Secured login with MFA
-Implemented conditional access policies
+Configure access control using groups 
 
 ## Real-World Scenario
 
@@ -106,7 +106,7 @@ In this lab, I simulated a common scenario where a new employee requires:
  - A user account to be created
  - Appropriate role-based permissions assigned
  - Multi-Factor Authentication (MFA) enabled for security
- - Access restricted through Conditional Access policies
+ - Access managed through group membership
 
 This reflects real-world IT tasks where proper identity management is critical to maintaining security and controlling access to organizational systems.
 
@@ -114,5 +114,5 @@ This reflects real-world IT tasks where proper identity management is critical t
 How to create and manage users in a cloud identity platform
 How role-based access control (RBAC) is used to assign permissions
 The importance of Multi-Factor Authentication for securing user accounts
-How Conditional Access policies enforce security requirements in real-world environments
+How group-based access simplifies user and permission management
 
