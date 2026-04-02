@@ -13,22 +13,21 @@ This lab demonstrates basic identity and access management using Microsoft Entra
   - Remote Desktop (optional)
 
 ## Lab Objectives
-Provision users
-Assign roles
-Enable Multi-Factor Authentication (MFA)
-Configure access control
+I will Provision users, assign roles, enagle Multi- Factor Authentication (MFA), and Configure access control
 
 ---
+# Step-by-Step Walkthrough 
 
 ## Step 1: Create a User
-Sign in to the Azure Portal
-Navigate to Microsoft Entra ID
-Select Users → New User
-Create a new user with:
-Username
-Name
-Password
-Click Create
+Within the Azure Portal.. 
+ - Navigate to Microsoft Enra ID 
+
+ - Select Users → New User
+ - Create a new user with:
+     - Username - Alex 
+     - Name
+     - Password
+  - Click Create
 
 Result: New user account is successfully provisioned.
 
@@ -105,4 +104,3 @@ How role-based access control (RBAC) is used to assign permissions
 The importance of Multi-Factor Authentication for securing user accounts
 How Conditional Access policies enforce security requirements in real-world environments
 
-# entra-id-management-lab
