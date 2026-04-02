@@ -19,6 +19,7 @@ I will Provision users, assign roles, enagle Multi- Factor Authentication (MFA),
 # Step-by-Step Walkthrough 
 
 ## Step 1: Create a User
+
 Within the Azure Portal.. 
  - Navigate to Microsoft Enra ID 
 
@@ -38,30 +39,37 @@ User successfully created in the Users list
 ---
 
 ## Step 2: Assign a Role
-Go to Roles and Administrators
-Select a role (e.g., User Administrator)
-Click Add Assignment
-Select the user you created
-Click Assign
+
+From Default Directory 
+ - Go to Manage --> Roles and Administrators
+ - Select a role (User Administrator)
+ - Click Add Assignment
+ - Select user (Alex)
+ - Click Assign
 
 Result: User now has elevated permissions.
 
-📸 Screenshot 2:
-Role assignment page showing the user assigned to a role
+<img width="919" height="293" alt="userassigned" src="https://github.com/user-attachments/assets/291c1c09-9dcd-452a-b106-3d6daba5ddad" />
+<img width="564" height="214" alt="assigned roles" src="https://github.com/user-attachments/assets/554bfe75-399a-4a7d-befe-34710df1c9cb" />
+
+
+Role assignment page showing the user assigned to User Administrator role
 
 ---
 
 
 ## Step 3: Enable Multi-Factor Authentication (MFA)
-Navigate to Users
-Select the created user
-Go to Authentication Methods or Security Settings
-Enable Multi-Factor Authentication
-Configure a verification method (phone or app)
 
-Result: User is required to verify identity during login.
+ - Navigate to Users
+ - Select the created user (Alex)
+ - Go to Authentication Methods
+ - Enable Multi-Factor Authentication
+ - Configure a verification method 
 
-📸 Screenshot 3 (Very Important):
+Result: User is required to verify identity during login with phone number and email. 
+<img width="761" height="302" alt="alexauthmethods" src="https://github.com/user-attachments/assets/14af8cf5-ac36-437d-84db-14122d9e45c6" />
+
+
 MFA enabled or authentication methods configured for the user
 
 ---
