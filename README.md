@@ -20,13 +20,13 @@ I will add a user, assign a role, engage Multi- Factor Authentication (MFA) and 
 ## Step 1: Create a User
 
 Within the Azure Portal.. 
- - Navigate to Microsoft Enra ID 
+ - Navigate to Microsoft Entra ID 
 
  - Select Users → New User
  - Create a new user with:
      - Username - Alex 
-     - Name
-     - Password
+     - Name ...
+     - Password ...
   - Click Create
 
 Result: New user account is successfully provisioned.
@@ -41,7 +41,8 @@ User successfully created in the Users list
 
 From Default Directory 
  - Go to Manage --> Roles and Administrators
- - Select a role (User Administrator)
+ - Select a role
+    - User Administrator
  - Click Add Assignment
  - Select user (Alex)
  - Click Assign
@@ -63,6 +64,8 @@ Role assignment page showing the user assigned to User Administrator role
  - Select the created user (Alex)
  - Go to Authentication Methods
  - Enable Multi-Factor Authentication
+     - Email
+     - Phone Number
  - Configure a verification method 
 
 Result: User is required to verify identity during login with phone number and email. 
