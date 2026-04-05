@@ -114,7 +114,7 @@ In this lab, I simulated a common scenario where a new employee requires:
 
 This reflects real-world IT tasks where proper identity management is critical to maintaining security and controlling access to organizational systems.
 
-## What I Learned
+##  💡What I Learned
  - How to create and manage users in a cloud identity platform
  - How role-based access control (RBAC) is used to assign permissions
  - The importance of Multi-Factor Authentication for securing user accounts
